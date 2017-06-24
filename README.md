@@ -1,5 +1,4 @@
-# machinelearning
-machine learning , computer vision documents
+# Machine Learning , Computer Vision Documents
 
  -UDACITY folder : main machine earing code file
  
