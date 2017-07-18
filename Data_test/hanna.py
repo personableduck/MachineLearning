@@ -87,4 +87,4 @@ for index2 in range (len(new_order)):
 plt.figure(4)   
 c=plt.scatter(picture_mat_x,picture_mat_y,c=picture_mat_x,vmin=-40,vmax=100) 
 
-plt.colorbar(c,orientation='horizontal')
+plt.colorbar(c,orientation='horizontal') 
