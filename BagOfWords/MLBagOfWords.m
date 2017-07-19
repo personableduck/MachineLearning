@@ -389,7 +389,7 @@ static NSDictionary *__stopWords= nil;
 		NSLinguisticTagger *tagger= [[NSLinguisticTagger alloc] initWithTagSchemes:@[NSLinguisticTagSchemeLanguage] options:0];
 		[tagger setString:text];
 	
-		// Get the language using the tagger
+		// Get the language using the tagger 
 		NSString *language= [tagger tagAtIndex:0 scheme:NSLinguisticTagSchemeLanguage tokenRange:NULL sentenceRange:NULL];
 		return language;
 	}
